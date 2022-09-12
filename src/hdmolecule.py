@@ -96,6 +96,10 @@ class HDMolecule:
 
 
 def analyze_N2(distance):
+    """Creats an object N2 of the class HDMolecule. 
+
+    Prints the nitrogen atom energy, molecule energy and atomization energy, all in eV.
+    """
 
     N2 = HDMolecule("N", distance)
 
